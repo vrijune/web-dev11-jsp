@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!--lab examples:-->
+    <servlet>
+        <servlet-name>car-ad</servlet-name>
+        <servlet-class>ictgradschool.web.labexamples.example01.CarAdServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>car-ad</servlet-name>
+        <url-pattern>/car-ad</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>example02</servlet-name>
+        <servlet-class>ictgradschool.web.labexamples.example02.JSTLExamples</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>example02</servlet-name>
+        <url-pattern>/example02</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>example03</servlet-name>
+        <servlet-class>ictgradschool.web.labexamples.example03.ParameterMapExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>example03</servlet-name>
+        <url-pattern>/example03</url-pattern>
+    </servlet-mapping>
+
+
+    <!--lab activities:-->
+
+
+    <servlet>
+        <servlet-name>unitconverter</servlet-name>
+        <servlet-class>ictgradschool.web.exercise01.UnitConverter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>unitconverter</servlet-name>
+        <url-pattern>/unitconverter</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>fileupload</servlet-name>
+        <servlet-class>ictgradschool.web.exercise05.FileUpload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>fileupload</servlet-name>
+        <url-pattern>/fileupload</url-pattern>
+    </servlet-mapping>
+
+
+
+
+</web-app>
+
