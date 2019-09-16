@@ -53,7 +53,7 @@ Suggested steps:
 + Connect the form to the servlet with the `web.xml` mapping
 + Create a doGet method within the servlet
 + Create the appropriate variables and `HttpServletRequest` methods to store a string for the name of the user
-and a string array for all 5 favourite movies (read the note about about `.getParameterValuers(..)` )
+and a string array for all 5 favourite movies (read the note about about `.getParameterValues(..)` )
 + Remember to set appropriate request attributes to display the user's name and the list of movies
 + Create a `.jsp` file to display a list of the users favourite movies 
     - Do not forget to add the correct tags at the top of the `.jsp` file to enable JSTL; have a look at the examples
