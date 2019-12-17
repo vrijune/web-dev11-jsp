@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
 
-<form method="POST" action="/fileupload" enctype="multipart/form-data">
-    <label for="avatar">Image to upload:</label>
-    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
-    <input type="submit" value="Submit">
-</form>
-</body>
+        <form method="POST" action="/fileupload" enctype="multipart/form-data">
+            <label>
+                Image to upload:
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+            </label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
 </html>

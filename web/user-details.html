@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
 
-<form action="/userdetails" method="get">
-    First name:<br>
-    <input type="text" name="firstName" value="">
-    <br>
-    Last name:<br>
-    <input type="text" name="lastName" value="">
-    <br>
-    <select name="userType">
-        <option value="user">user</option>
-        <option value="admin">admin</option>
-    </select>
-    <br><br>
-    <input type="submit" value="Submit">
-</form>
+        <form action="/userdetails" method="get">
+            <label>
+                First name:
+                <input type="text" name="firstName" value="">
+            </label>
 
-</body>
+            <br>
+
+            <label>
+                Last name:
+                <input type="text" name="lastName" value="">
+            </label>
+
+            <br>
+
+            <label>
+                USer type:
+                <select name="userType">
+                    <option value="user">user</option>
+                    <option value="admin">admin</option>
+                </select>
+            </label>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
 </html>

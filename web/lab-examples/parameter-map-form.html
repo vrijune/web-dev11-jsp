@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-This form will submit to a servlet that will use system.out on the server side to log the parameters of the form.
-It is only here to show you how you can loop through form parameters without individually getting each parameter.
-<form action="/example03" method="get">
-    First name:<br>
-    <input type="text" name="firstName" value="">
-    <br>
-    Last name:<br>
-    <input type="text" name="lastName" value="">
-    <br>
-    Extra parameter one:<br>
-    <input type="text" name="extra1" value="">
-    <br>
-    Extra parameter two:<br>
-    <input type="text" name="extra2" value="">
-    <br>
-    <input type="submit" value="Submit">
-</form>
+    <head>
+        <meta charset="UTF-8">
+        <title>Parameter Form</title>
+    </head>
+    <body>
+        <p>This form will submit to a servlet that will use system.out on the server side to log the parameters of the
+            form.</p>
 
-</body>
+        <p>It is only here to show you how you can loop through form parameters without individually getting each
+            parameter.</p>
+
+        <form action="/example03" method="get">
+            <label>
+                First name:
+                <input type="text" name="firstName" value="">
+            </label>
+
+            <br>
+
+            <label>
+                Last name:
+                <input type="text" name="lastName" value="">
+            </label>
+
+            <br>
+
+            <label>
+                Extra parameter one:
+                <input type="text" name="extra1" value="">
+            </label>
+
+            <br>
+
+            <label>
+                Extra parameter two:
+                <input type="text" name="extra2" value="">
+            </label>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
 </html>

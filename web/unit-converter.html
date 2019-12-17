@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Unit Converter</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Unit Converter</title>
+    </head>
+    <body>
 
-<form action="/unitconverter" method="get">
+        <form action="/unitconverter" method="get">
 
-    Convert kilograms to pounds:<br>
-    <input type="text" name="kilos" value="">
-    <br>
-    Convert celsius to fahrenheit:<br>
-    <input type="text" name="celsius" value="">
+            Convert kilograms to pounds:<br>
+            <label>
+                Kilogram value
+                <input type="text" name="kilos" value="">
+            </label>
+            <br>
 
-    <br><br>
-    <input type="submit" value="Submit">
+            Convert celsius to fahrenheit:<br>
+            <label>
+                Celcius value
+                <input type="text" name="celsius" value="">
+            </label>
 
-</form>
+            <br><br>
+            <input type="submit" value="Submit">
 
-</body>
+        </form>
+
+    </body>
 </html>
