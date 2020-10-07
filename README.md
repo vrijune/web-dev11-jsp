@@ -1,4 +1,4 @@
-Web Lab 11 &ndash; Servlets
+Web Lab 12 &ndash; JSP/JSTL/EL
 ==========
 
 Begin by forking this repository into your namespace by clicking the ```fork``` button above, then selecting your username from the resulting window. 
