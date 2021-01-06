@@ -10,7 +10,7 @@
         <li><a href="./unit-converter.html">Unit Converter</a></li>
         <li><a href="./movie-list.html">Movie List</a></li>
         <li><a href="./user-details.html">User Details</a></li>
-        <li><a href="./">Image Gallery</a></li>
+        <li><a href="./ImageGallery">Image Gallery</a></li>
         <li><a href="./file-upload.html">File Upload</a></li>
     </ul>
 </nav>

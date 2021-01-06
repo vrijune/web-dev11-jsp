@@ -4,6 +4,7 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -47,6 +48,9 @@ public class FileUpload extends HttpServlet {
         factory.setRepository(tempFolder);
         ServletFileUpload upload = new ServletFileUpload(factory);
 
+
+
+
         try {
             List<FileItem> fileItems = upload.parseRequest(req);
             File fullsizeImageFile = null;
@@ -62,5 +66,10 @@ public class FileUpload extends HttpServlet {
         } catch (Exception e) {
             throw new ServletException(e);
         }
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/ImageGallery");
+        dispatcher.forward(req, resp);
+
     }
 }
+
+

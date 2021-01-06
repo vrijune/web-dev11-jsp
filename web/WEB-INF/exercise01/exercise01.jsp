@@ -10,6 +10,9 @@
         <h2>Converted Units:</h2>
 
         <%--Display the original and converted units here--%>
-
+    <ul>
+        <li>${kilos} kilograms convert to ${pounds} pounds</li>
+        <li>${celsius} celsius is ${fahrenheit} degrees fahrenheit</li>
+    </ul>
     </body>
 </html>
